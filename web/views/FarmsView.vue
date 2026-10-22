@@ -136,6 +136,10 @@ onMounted(load);
               <div class="stat__label">Fields</div>
               <div class="stat__value">{{ fieldsByFarm.get(farm.id)?.length || 0 }}</div>
             </div>
+            <div class="stat">
+              <div class="stat__label">Total Farm Area</div>
+              <div class="stat__value">{{  fieldsByFarm.get(farm.id).reduce((sum, f) => sum + (f.area_ha || 0), 0).toFixed(2) }}</div>
+            </div>
           </div>
         </div>
 
