@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Paddock Manager">
+  <rect width="512" height="512" rx="96" fill="#1f3d2b" />
+  <path d="M96 400V176l160-64 160 64v224" fill="none" stroke="#8fc93a" stroke-width="22" stroke-linejoin="round" />
+  <path d="M96 400h320" stroke="#8fc93a" stroke-width="22" stroke-linecap="round" />
+  <path d="M176 400v-88h160v88" fill="#8fc93a" opacity="0.25" />
+  <path d="M256 224v-48m0 96v-24" stroke="#f6f7f4" stroke-width="18" stroke-linecap="round" />
+  <circle cx="256" cy="180" r="16" fill="#f6f7f4" />
+</svg>

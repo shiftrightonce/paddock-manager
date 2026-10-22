@@ -1,0 +1,8 @@
+/target
+/data/*
+/dist
+/node_modules
+/.env
+/.env.dev
+!/data/.gitkeep
+!/data/uploads/.gitkeep
